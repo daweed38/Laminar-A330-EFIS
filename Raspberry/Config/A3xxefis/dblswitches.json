@@ -1,0 +1,87 @@
+{
+    "CONF": {
+        "confname": "DBLSWITCHES",
+        "library": "ObjSwitches",
+        "module": "DoubleSwitch",
+        "properylist": "name,node,nodetype,nodeformat,nodeconds,device,port,pin1,pin2,values,valuestype,output,command",
+        "isoutput": "no",
+        "iscommand": "yes"
+    },
+    "PROPERTIES": {
+        "prop01": "name",
+        "prop02": "node",
+        "prop03": "nodetype",
+        "prop04": "nodeformat",
+        "prop05": "nodeconds",
+        "prop06": "device",
+        "prop07": "port",
+        "prop08": "pin1",
+        "prop09": "pin2",
+        "prop10": "values",
+        "prop11": "valuestype",
+        "prop12": "output",
+        "prop13": "command"
+    },
+    "OBJECTS": {
+        "EFIS0ADFVOR1SW": {
+            "name": "efis0adfvor1sw",
+            "node": "sim/cockpit2/EFIS/EFIS_1_selection_pilot",
+            "nodetype": "dref",
+            "nodeformat": "base",
+            "nodeconds": "None",
+            "device": "IOPACK2",
+            "port": "A",
+            "pin1": "2",
+            "pin2": "1",
+            "values": [0, 1, 2],
+            "valuestype": "int",
+            "output": "False",
+            "command": "True"
+        },
+        "EFIS0ADFVOR2SW": {
+            "name": "efis0adfvor2sw",
+            "node": "sim/cockpit2/EFIS/EFIS_2_selection_pilot",
+            "nodetype": "dref",
+            "nodeformat": "base",
+            "nodeconds": "None",
+            "device": "IOPACK2",
+            "port": "A",
+            "pin1": "4",
+            "pin2": "3",
+            "values": [0, 1, 2],
+            "valuestype": "int",
+            "output": "False",
+            "command": "True"
+        },
+        "EFIS1ADFVOR1SW": {
+            "name": "efis1adfvor1sw",
+            "node": "sim/cockpit2/EFIS/EFIS_1_selection_copilot",
+            "nodetype": "dref",
+            "nodeformat": "base",
+            "nodeconds": "None",
+            "device": "IOPACK4",
+            "port": "A",
+            "pin1": "5",
+            "pin2": "4",
+            "values": [0, 1, 2],
+            "valuestype": "int",
+            "output": "False",
+            "command": "True"
+        },
+        "EFIS1ADFVOR2SW": {
+            "name": "efis1adfvor2sw",
+            "node": "sim/cockpit2/EFIS/EFIS_2_selection_copilot",
+            "nodetype": "dref",
+            "nodeformat": "base",
+            "nodeconds": "None",
+            "device": "IOPACK4",
+            "port": "A",
+            "pin1": "7",
+            "pin2": "6",
+            "values": [0, 1, 2],
+            "valuestype": "int",
+            "output": "False",
+            "command": "True"
+        }
+    }
+}

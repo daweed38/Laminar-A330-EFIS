@@ -1,7 +1,7 @@
 {
   "INT": {
     "intname": "A3xxefis",
-    "dummydevice": 1
+    "dummydevice": 0
   },
   "NETWORK": {
     "xpladdr": "<X-Plane PC IP Addr>",

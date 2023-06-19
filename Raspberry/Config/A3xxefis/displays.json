@@ -1,0 +1,72 @@
+{
+    "CONF": {
+        "confname": "DISPLAYS",
+        "library": "ObjDisplays",
+        "module": "SegDisplay",
+        "properylist": "name,node,nodetype,nodeformat,nodeconds,device,port,row1,nbdigit,decdigit,output,command",
+        "isoutput": "yes",
+        "iscommand": "no"
+    },
+    "PROPERTIES": {
+        "prop01": "name",
+        "prop02": "node",
+        "prop03": "nodetype",
+        "prop04": "nodeformat",
+        "prop05": "nodeconds",
+        "prop06": "device",
+        "prop07": "port",
+        "prop08": "row1",
+        "prop09": "nbdigit",
+        "prop10": "decdigit",
+        "prop11": "output",
+        "prop12": "command"
+    },
+    "OBJECTS": {
+        "QNHCPTDSP": {
+            "name": "qnhcptdsp",
+            "node": "sim/cockpit/misc/barometer_setting",
+            "nodetype": "dref",
+            "nodeformat": "base",
+            "nodeconds": {
+                "standard":  {
+                    "node": "laminar/A333/barometer/capt_mode",
+                    "nodetype": "int"
+                },
+                "inhghpa": {
+                    "node": "laminar/A333/barometer/capt_inHg_hPa_pos",
+                    "nodetype": "int"
+                }
+            },
+            "device": "LEDPACK1",
+            "port": "A",
+            "row1": "1",
+            "nbdigit": "4",
+            "decdigit": "2",
+            "output": "True",
+            "command": "False"
+        },
+        "QNHFODSP": {
+            "name": "qnhfodsp",
+            "node": "sim/cockpit/misc/barometer_setting2",
+            "nodetype": "dref",
+            "nodeformat": "base",
+            "nodeconds": {
+                "standard":  {
+                    "node": "laminar/A333/barometer/fo_mode",
+                    "nodetype": "int"
+                },
+                "inhghpa": {
+                    "node": "laminar/A333/barometer/fo_inHg_hPa_pos",
+                    "nodetype": "int"
+                }
+            },
+            "device": "LEDPACK1",
+            "port": "B",
+            "row1": "1",
+            "nbdigit": "4",
+            "decdigit": "2",
+            "output": "True",
+            "command": "False"
+        }
+    }
+}

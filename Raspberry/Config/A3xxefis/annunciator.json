@@ -1,0 +1,92 @@
+{
+    "CONF": {
+        "confname": "ANNUNCIATOR",
+        "library": "ObjDisplays",
+        "module": "Annunciator",
+        "properylist": "name,node,nodetype,nodeformat,nodeconds,device,port,row,out1,nblight,activemode,initstate,output,command",
+        "isoutput": "yes",
+        "iscommand": "no"
+    },
+    "PROPERTIES": {
+        "prop01": "name",
+        "prop02": "node",
+        "prop03": "nodetype",
+        "prop04": "nodeformat",
+        "prop05": "nodeconds",
+        "prop06": "device",
+        "prop07": "port",
+        "prop08": "row",
+        "prop09": "out1",
+        "prop10": "nblight",
+        "prop11": "activemode",
+        "prop12": "initstate",
+        "prop13": "output",
+        "prop14": "command"
+    },
+    "OBJECTS": {
+        "EFIS0BAROSWL": {
+            "name": "efis0baroswl",
+            "node": "None",
+            "nodetype": "dref",
+            "nodeformat": "base",
+            "nodeconds": "None",
+            "device": "LEDPACK1",
+            "port": "A",
+            "row": "5",
+            "out1": "1",
+            "nblight": "1",
+            "activemode": "1",
+            "initstate": "OFF",
+            "output": "False",
+            "command": "False"
+        },
+        "EFIS0QNHSWL": {
+            "name": "efis0qnhswl",
+            "node": "None",
+            "nodetype": "dref",
+            "nodeformat": "base",
+            "nodeconds": "None",
+            "device": "LEDPACK1",
+            "port": "A",
+            "row": "5",
+            "out1": "2",
+            "nblight": "1",
+            "activemode": "1",
+            "initstate": "OFF",
+            "output": "False",
+            "command": "False"
+        },
+        "EFIS1BAROSWL": {
+            "name": "efis1baroswl",
+            "node": "None",
+            "nodetype": "dref",
+            "nodeformat": "base",
+            "nodeconds": "None",
+            "device": "LEDPACK1",
+            "port": "B",
+            "row": "5",
+            "out1": "1",
+            "nblight": "1",
+            "activemode": "1",
+            "initstate": "OFF",
+            "output": "False",
+            "command": "False"
+        },
+        "EFIS1QNHSWL": {
+            "name": "efis1qnhswl",
+            "node": "None",
+            "nodetype": "dref",
+            "nodeformat": "base",
+            "nodeconds": "None",
+            "device": "LEDPACK1",
+            "port": "B",
+            "row": "5",
+            "out1": "2",
+            "nblight": "1",
+            "activemode": "1",
+            "initstate": "OFF",
+            "output": "False",
+            "command": "False"
+        }
+    }
+}
