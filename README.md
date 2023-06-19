@@ -8,3 +8,18 @@ Add the following in the INTERFACES section :
 "A3xxefis": {
       "configfile": "A3xxefis.json"
     }
+
+Example if it's the first interface :
+
+{
+  "NETWORK": {
+    "srvname": "SimOpIntSrv",
+    "xpladdr": "192.168.0.150",
+    "xplport": 49500
+  },
+  "INTERFACES": {
+    "A3xxefis": {
+      "configfile": "A3xxefis.json"
+    }
+  }
+}
