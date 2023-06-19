@@ -1,0 +1,72 @@
+{
+    "CONF": {
+        "confname": "ROTARYENC",
+        "library": "ObjEncoders",
+        "module": "RotaryEncoder",
+        "properylist": "name,node,nodetype,nodeformat,nodeconds,device,port,pin1,pin2,swpin,initvalue,minvalue,maxvalue,increment,output,command",
+        "isoutput": "no",
+        "iscommand": "yes"
+    },
+    "PROPERTIES": {
+        "prop01": "name",
+        "prop02": "node",
+        "prop03": "nodetype",
+        "prop04": "nodeformat",
+        "prop05": "nodeconds",
+        "prop06": "device",
+        "prop07": "port",
+        "prop08": "pin1",
+        "prop09": "pin2",
+        "prop10": "swpin",
+        "prop11": "initvalue",
+        "prop12": "minvalue",
+        "prop13": "maxvalue",
+        "prop14": "increment",
+        "prop15": "output",
+        "prop16": "command"
+    },
+    "OBJECTS": {
+        "QNHCPTENC": {
+            "name": "qnhcptenc",
+            "node": {
+                "incr": "sim/instruments/barometer_up",
+                "decr": "sim/instruments/barometer_down"
+            },
+            "nodetype": "cmd",
+            "nodeformat": "encoder",
+            "nodeconds": "None",
+            "device": "IOPACK1",
+            "port": "A",
+            "pin1": 2,
+            "pin2": 1,
+            "swpin": 0,
+            "initvalue": 0,
+            "minvalue": 0,
+            "maxvalue": 359,
+            "increment": 1,
+            "output": "False",
+            "command": "False"
+        },
+        "QNHFOENC": {
+            "name": "qnhfoenc",
+            "node": {
+                "incr": "sim/instruments/barometer_copilot_up",
+                "decr": "sim/instruments/barometer_copilot_down"
+            },
+            "nodetype": "cmd",
+            "nodeformat": "encoder",
+            "nodeconds": "None",
+            "device": "IOPACK3",
+            "port": "B",
+            "pin1": 2,
+            "pin2": 1,
+            "swpin": 0,
+            "initvalue": 0,
+            "minvalue": 0,
+            "maxvalue": 359,
+            "increment": 1,
+            "output": "False",
+            "command": "False"
+        }
+    }
+}

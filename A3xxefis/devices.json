@@ -1,0 +1,32 @@
+{
+    "LEDPACK1": {
+        "devicename": "LEDPACK1",
+        "devicemod": "HT16K33",
+        "deviceaddr": "0x70"
+    },
+    "LEDPACK2": {
+        "devicename": "LEDPACK2",
+        "devicemod": "HT16K33",
+        "deviceaddr": "0x71"
+    },
+    "IOPACK1": {
+        "devicename": "IOPACK1",
+        "devicemod": "MCP23017",
+        "deviceaddr": "0x20"
+    },
+    "IOPACK2": {
+        "devicename": "IOPACK2",
+        "devicemod": "MCP23017",
+        "deviceaddr": "0x21"
+    },
+    "IOPACK3": {
+        "devicename": "IOPACK3",
+        "devicemod": "MCP23017",
+        "deviceaddr": "0x22"
+    },
+    "IOPACK4": {
+        "devicename": "IOPACK4",
+        "devicemod": "MCP23017",
+        "deviceaddr": "0x23"
+    }
+}

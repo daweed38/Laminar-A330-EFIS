@@ -1,0 +1,58 @@
+{
+  "INT": {
+    "intname": "A3xxefis",
+    "dummydevice": 1
+  },
+  "NETWORK": {
+    "xpladdr": "192.168.0.150",
+    "xplport": 49500
+  },
+  "DEVICES": {
+    "deviceconfig": "devices.json",
+    "modules": {
+      "devicemod01": {
+        "module": "DeviceHT16K33",
+        "class": "HT16K33"
+      },
+      "devicemod02": {
+        "module": "DeviceMCP23017",
+        "class": "MCP23017"
+      }
+    }
+  },
+  "MODULES": {
+    "SegDisplay" : {
+      "module": "ObjDisplays",
+      "class": "SegDisplay"
+    },
+    "Annunciator": {
+      "module": "ObjDisplays",
+      "class": "Annunciator"
+    },
+    "PushButtonSwitch": {
+      "module": "ObjSwitches",
+      "class": "PushButtonSwitch"
+    },
+    "DoubleSwitch": {
+      "module": "ObjSwitches",
+      "class": "DoubleSwitch"
+    },
+    "RotarySwitch": {
+      "module": "ObjSwitches",
+      "class": "RotarySwitch"
+    },
+    "RotaryEncoder": {
+      "module": "ObjEncoders",
+      "class": "RotaryEncoder"
+    }
+  },
+  "OBJECTS": {
+    "displays": "displays.json",
+    "swlights": "swlights.json",
+    "annunciators": "annunciator.json",
+    "pushbtns": "pushbtns.json",
+    "dblswitches": "dblswitches.json",
+    "rotswitches": "rotswitches.json",
+    "rotenc": "rotenc.json"
+  }
+}

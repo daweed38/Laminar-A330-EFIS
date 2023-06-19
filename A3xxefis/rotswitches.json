@@ -1,0 +1,97 @@
+{
+    "CONF": {
+        "confname": "ROTSWITCHES",
+        "library": "ObjSwitches",
+        "module": "RotarySwitch",
+        "properylist": "name,node,nodetype,nodeformat,nodeconds,device,port,pin,values,valuestype,bincode,output,command",
+        "isoutput": "no",
+        "iscommand": "yes"
+    },
+    "PROPERTIES": {
+        "prop01": "name",
+        "prop02": "node",
+        "prop03": "nodetype",
+        "prop04": "nodeformat",
+        "prop05": "nodeconds",
+        "prop06": "device",
+        "prop07": "port",
+        "prop08": "pins",
+        "prop09": "values",
+        "prop10": "valuestype",
+        "prop11": "bincode",
+        "prop12": "output",
+        "prop13": "command"
+    },
+    "OBJECTS": {
+        "EFIS0ROSERSW": {
+            "name": "efis0rosersw",
+            "node": {
+                "right": "laminar/A333/knobs/capt_EFIS_knob_right",
+                "left": "laminar/A333/knobs/capt_EFIS_knob_left"
+            },
+            "nodetype": "cmd",
+            "nodeformat": "rotaryswitch",
+            "nodeconds": "None",
+            "device": "IOPACK2",
+            "port": "None",
+            "pins": ["B5","B4","B3","B2","B1"],
+            "values": ["ils","vor","nav","arc","plan"],
+            "valuestype": "int",
+            "bincode": 0,
+            "output": "False",
+            "command": "True"
+        },
+        "EFIS0ZOOMRSW": {
+            "name": "efis0zoomrsw",
+            "node": {
+                "dref": "sim/cockpit2/EFIS/map_range"
+            },
+            "nodetype": "dref",
+            "nodeformat": "rotaryswitch",
+            "nodeconds": "None",
+            "device": "IOPACK2",
+            "port": "None",
+            "pins": ["B6","B7","B8","A5","A6","A7"],
+            "values": [10,20,40,80,160,320],
+            "valuestype": "int",
+            "bincode": 0,
+            "output": "False",
+            "command": "True"
+        },
+        "EFIS1ROSERSW": {
+            "name": "efis1rosersw",
+            "node": {
+                "right": "laminar/A333/knobs/fo_EFIS_knob_right",
+                "left": "laminar/A333/knobs/fo_EFIS_knob_left"
+            },
+            "nodetype": "cmd",
+            "nodeformat": "rotaryswitch",
+            "nodeconds": "None",
+            "device": "IOPACK4",
+            "port": "None",
+            "pins": ["B4","B5","B6","B7","B8"],
+            "values": ["ils","vor","nav","arc","plan"],
+            "valuestype": "int",
+            "bincode": 0,
+            "output": "False",
+            "command": "True"
+        },
+        "EFIS1ZOOMRSW": {
+            "name": "efis1zoomrsw",
+            "node": {
+                "dref": "sim/cockpit2/EFIS/map_range_copilot"
+            },
+            "nodetype": "dref",
+            "nodeformat": "rotaryswitch",
+            "nodeconds": "None",
+            "device": "IOPACK4",
+            "port": "None",
+            "pins": ["B3","B2","B1","A1","A2","A3"],
+            "values": [10,20,40,80,160,320],
+            "valuestype": "int",
+            "bincode": 0,
+            "output": "False",
+            "command": "True"
+        }
+    }
+}
