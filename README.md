@@ -14,7 +14,7 @@ Example if it's the first interface :
 {
   "NETWORK": {
     "srvname": "SimOpIntSrv",
-    "xpladdr": "192.168.0.150",
+    "xpladdr": "<X-Plane PC Ip Addr",
     "xplport": 49500
   },
   "INTERFACES": {
